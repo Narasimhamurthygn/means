@@ -1,0 +1,11 @@
+<nav class='navbar navbar-default'>
+    <div class='container-fluid'>
+        <a class='navbar-brand'>{{pageTitle}}</a>
+        <ul class='nav navbar-nav'>
+          <li><a [routerLink]="['/welcome']">WelcomePage</a></li>
+          <li><a [routerLink]="['/create']">AddEmployees</a></li>
+          <li><a [routerLink]="['/display']">PRODUCT LIST</a></li>
+        </ul>  
+    </div>
+</nav>
+<router-outlet></router-outlet>
